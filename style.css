@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url(./images/bg-desktop-light.jpg) top center / contain no-repeat ;
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+}
+
+.wrapper {
+  grid-column: col-start 4 / span 6;
+  margin-top: 10%;
+  padding: 0 10%;
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+p {
+  padding: 50px;
+}
